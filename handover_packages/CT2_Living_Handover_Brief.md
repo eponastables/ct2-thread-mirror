@@ -2,14 +2,14 @@
 type: Narrative_Memory
 document_class: Handover_Document
 author: CT2
-date: 2026-05-15
+date: 2026-05-16
 themes: ["ct2_handover", "project_state", "agent_status", "open_issues", "succession"]
 significance: HIGH
-linked_issues: []
+linked_issues: ["ISSUE-021-CT-Bespoke_Management_System"]
 ---
 
 # CT2 Living Handover Brief
-**Last Updated:** 15 May 2026 (Day 10)
+**Last Updated:** 16 May 2026 (Day 11)
 **For:** CT3 or any successor CT agent
 
 ---
@@ -30,15 +30,19 @@ Then read CT1's Address to the Team:
 
 The project is in a mature operational phase. The core analytical engine (MNEME + TAT series) is live. The archival system (ARC knowledge graph) is live. The commercial side project (Project Stables / Meadow & Mane) is in early operational phase in a separate Manus account.
 
-**The next major build is ISSUE-021-CT-Bespoke_Management_System** — a live operational dashboard for the CT agent. Phase 1 (Requirements) was approved by the Project Lead on Day 10 but not yet started. This is the Day 11 priority.
+**The next major build is ISSUE-021-CT-Bespoke_Management_System** — a live operational dashboard for the CT agent. Phase 1 (Requirements) was approved by the Project Lead on Day 10 but not yet started. This is the Day 12 priority.
+
+**AutoGen Research Finding (Day 11):** The Microsoft AutoGen paper confirms our architecture mirrors best-practice research. The `GroupChatManager` concept directly informs ISSUE-021 — the system must include an Autonomous Routing Module that reads Ledger context, evaluates agent roles, and proposes or executes the next commission autonomously. Assessment filed at `07_MAILBOXES/CT2/20260516_CT2_to_Project_Lead_AutoGen_Assessment.md`.
+
+**Punting Form Subscription lapsed.** Must be restored by Project Lead before TAT2 begins field work. APT1 to run pipeline connectivity check once restored.
 
 ---
 
-## 3. Immediate Priorities (Day 11)
+## 3. Immediate Priorities (Day 12)
 
-1. **Open ISSUE-021-CT-Bespoke_Management_System** and write the Phase 1 Requirements, Usage and Outputs document. CT2 is both commissioner and primary user.
-2. **Check ARC1's EOD Compliance Sweep** — commissioned at Day 10 close. Report should be in CT2 mailbox.
-3. **Monitor TAT2** — beginning 10-session field work protocol. If TAT2 requests MNEME technical induction, commission APT1.
+1. **Open ISSUE-021-CT-Bespoke_Management_System** and write the Phase 1 Requirements, Usage and Outputs document. CT2 is both commissioner and primary user. Read the AutoGen assessment first.
+2. **Monitor TAT2** — standing by, awaiting Punting Form subscription restoration. If TAT2 requests MNEME technical induction, commission APT1.
+3. **Punting Form subscription** — flag to Project Lead if not yet restored.
 
 ---
 
@@ -47,7 +51,7 @@ The project is in a mature operational phase. The core analytical engine (MNEME 
 | Agent | Series | Status | Notes |
 | :--- | :--- | :--- | :--- |
 | TAT1 | TAT | On-call | Shadow period for TAT2's first live race days. Thread exhausted — do not commission for new work. |
-| TAT2 | TAT | Active — inducted | Beginning 10-session field work protocol. MNEME gap: may need APT1 technical induction. |
+| TAT2 | TAT | Inducted — standing by | Awaiting Punting Form subscription + MNEME induction before field work begins. |
 | APT1 | APT | Available | ISSUE-011 complete. Awaiting next commission. |
 | ARC1 | ARC | Operational | Knowledge graph live. Taxonomy Backlog housekeeping in progress. |
 | RC | RC | Available | Phase 2 research complete. Awaiting next commission. |
@@ -104,4 +108,4 @@ The project is in a mature operational phase. The core analytical engine (MNEME 
 
 ---
 
-*CT2 — The Coach | Epona Stables | 15 May 2026*
+*CT2 — The Coach | Epona Stables | 16 May 2026*
