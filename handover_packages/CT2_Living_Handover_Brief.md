@@ -2,14 +2,15 @@
 type: Narrative_Memory
 document_class: Handover_Document
 author: CT2
-date: 2026-05-16
+date: 2026-05-17
 themes: ["ct2_handover", "project_state", "agent_status", "open_issues", "succession"]
 significance: HIGH
 linked_issues: ["ISSUE-021-CT-Bespoke_Management_System"]
 ---
 
 # CT2 Living Handover Brief
-**Last Updated:** 16 May 2026 (Day 11)
+
+**Last Updated:** 17 May 2026 (Day 12)
 **For:** CT3 or any successor CT agent
 
 ---
@@ -26,19 +27,21 @@ Then read CT1's Address to the Team:
 
 ---
 
-## 2. Project State (as of Day 10)
+## 2. Project State (as of Day 12)
 
 The project is in a mature operational phase. The core analytical engine (MNEME + TAT series) is live. The archival system (ARC knowledge graph) is live. The commercial side project (Project Stables / Meadow & Mane) is in early operational phase in a separate Manus account.
 
-**The next major build is ISSUE-021-CT-Bespoke_Management_System** — a live operational dashboard for the CT agent. Phase 1 (Requirements) was approved by the Project Lead on Day 10 but not yet started. This is the Day 12 priority.
+**The next major build is ISSUE-021-CT-Bespoke_Management_System** — a live operational dashboard for the CT agent. Phase 1 (Requirements) was approved by the Project Lead on Day 10 but not yet started. This is the Day 13 priority.
 
 **AutoGen Research Finding (Day 11):** The Microsoft AutoGen paper confirms our architecture mirrors best-practice research. The `GroupChatManager` concept directly informs ISSUE-021 — the system must include an Autonomous Routing Module that reads Ledger context, evaluates agent roles, and proposes or executes the next commission autonomously. Assessment filed at `07_MAILBOXES/CT2/20260516_CT2_to_Project_Lead_AutoGen_Assessment.md`.
+
+**Credentials Protocol (Day 12):** `Project_Stables_Credentials_Security_Protocol_v1.0.md` is live and binding. We use a two-tier model: `.epona_secrets` in the sandbox (never committed) and `CREDENTIALS_INDEX.md` on the Ledger.
 
 **Punting Form Subscription lapsed.** Must be restored by Project Lead before TAT2 begins field work. APT1 to run pipeline connectivity check once restored.
 
 ---
 
-## 3. Immediate Priorities (Day 12)
+## 3. Immediate Priorities (Day 13)
 
 1. **Open ISSUE-021-CT-Bespoke_Management_System** and write the Phase 1 Requirements, Usage and Outputs document. CT2 is both commissioner and primary user. Read the AutoGen assessment first.
 2. **Monitor TAT2** — standing by, awaiting Punting Form subscription restoration. If TAT2 requests MNEME technical induction, commission APT1.
@@ -53,7 +56,7 @@ The project is in a mature operational phase. The core analytical engine (MNEME 
 | TAT1 | TAT | On-call | Shadow period for TAT2's first live race days. Thread exhausted — do not commission for new work. |
 | TAT2 | TAT | Inducted — standing by | Awaiting Punting Form subscription + MNEME induction before field work begins. |
 | APT1 | APT | Available | ISSUE-011 complete. Awaiting next commission. |
-| ARC1 | ARC | Operational | Knowledge graph live. Taxonomy Backlog housekeeping in progress. |
+| ARC1 | ARC | Operational | Running project document sweep and archive; Taxonomy Backlog housekeeping in progress. |
 | RC | RC | Available | Phase 2 research complete. Awaiting next commission. |
 | RC2 | RC | Operational (new account) | Browser Takeover issue under investigation. Project Stables setup in progress. |
 | Loom2 | SA | Operational (new account) | Project Stables setup in progress. |
@@ -78,34 +81,3 @@ The project is in a mature operational phase. The core analytical engine (MNEME 
 | `coach-project-home` | CT2 | WORK_LOG, NEXT_SESSION_NOTES | `/home/ubuntu/coach-project-home/` |
 | `ct2-thread-mirror` | CT2 | Diaries, handover packages | `/home/ubuntu/ct2-thread-mirror/` |
 | `epona-knowledge-base` | APT1/ARC1 | MNEME engine and knowledge base | `/home/ubuntu/epona-knowledge-base/` |
-| `arc-knowledge-graph` | ARC1 | Knowledge graph deployment | (clone from GitHub) |
-| `stables-shared-workspace` | RC2/Loom2 | Project Stables shared workspace | (clone from GitHub) |
-| `rc2-project-home` | RC2 | RC2 operational workspace | (clone from GitHub) |
-| `rc2-thread-mirror` | RC2 | RC2 diaries and handover packages | (clone from GitHub) |
-| `loom2-project-home` | Loom2 | Loom2 operational workspace | (clone from GitHub) |
-| `loom2-thread-mirror` | Loom2 | Loom2 diaries and production logs | (clone from GitHub) |
-
----
-
-## 7. Key Governance Documents
-
-| Document | Location | Purpose |
-| :--- | :--- | :--- |
-| End of Day Protocol v2.0 | `00_GOVERNANCE/` | EOD sequence — mandatory |
-| Issue Naming Convention v1.0 | `00_GOVERNANCE/` | ISSUE-{NNN}-{DOMAIN}-{Subject} format. Next Issue: ISSUE-021 |
-| RC2 Operational Protocols v1.0 | `00_GOVERNANCE/` | RC2 binding protocols |
-| Memory Palace Taxonomy Standard | `00_GOVERNANCE/` | YAML frontmatter requirements |
-| Mailbox Clearing Protocol v1.0 | `00_GOVERNANCE/` | Mailbox conventions |
-
----
-
-## 8. Deferred Items
-
-- **RC series formal induction** (RC1 Thread Mirror access for RC2): Deferred until Project Stables is operationally live.
-- **PRP v2.0:** CT1's final commission. Low priority.
-- **CO Series concept:** Long-term governance gap identified by CT1.
-- **Three open questions from CT1's deposition:** (1) MNEME conviction score ↔ betting decision protocol; (2) long-term governance structure; (3) formal thread degradation protocol.
-
----
-
-*CT2 — The Coach | Epona Stables | 16 May 2026*
