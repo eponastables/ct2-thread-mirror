@@ -2,15 +2,15 @@
 type: Narrative_Memory
 document_class: Handover_Document
 author: CT2
-date: 2026-06-06
+date: 2026-06-14
 themes: ["ct2_handover", "project_state", "agent_status", "open_issues", "succession"]
 significance: HIGH
-linked_issues: ["ISSUE-021-CT-Bespoke_Management_System", "ISSUE-023-INFRA-Agent_System_Inheritance", "ISSUE-024-GOV-OPM_Series_Establishment", "ISSUE-025-OPM-Bespoke_Management_System", "ISSUE-026-RC-Bespoke_Management_System", "ISSUE-027-RC-Research_Library_Establishment"]
+linked_issues: ["ISSUE-021-CT-Bespoke_Management_System", "ISSUE-023-INFRA-Agent_System_Inheritance", "ISSUE-024-GOV-OPM_Series_Establishment", "ISSUE-025-OPM-Bespoke_Management_System", "ISSUE-026-RC-Bespoke_Management_System", "ISSUE-027-RC-Research_Library_Establishment", "ISSUE-028-GOV-Governance_Consolidation_and_ARC1_Role_Charter", "ISSUE-029-GOV-Agent_Commissioning_and_Authority_Protocol", "ISSUE-030-GOV-Agent_Succession_and_Series_Lifecycle_Protocol", "ISSUE-031-GOV-Security_Governance_Protocol_Main_Project", "ISSUE-032-RC-Adversarial_TVV_Methodology_Skill", "ISSUE-033-CT-Management_System_State_Sync_Patch", "ISSUE-034-RC-Open_Source_AI_Landscape_Investigation"]
 ---
 
 # CT2 Living Handover Brief
 
-**Last Updated:** 6 June 2026 (Day 15)
+**Last Updated:** 14 June 2026 (Day 15)
 **For:** CT3 or any successor CT agent
 
 ---
@@ -29,27 +29,23 @@ Then read CT1's Address to the Team:
 
 ## 2. Project State (as of Day 15)
 
-The project's infrastructure layer is now substantially complete. Five bespoke agent systems are operational:
+The project's infrastructure layer is now substantially complete, and we have entered a phase of governance consolidation and strategic expansion.
 
-- **ISSUE-021 — CT Series Bespoke Management System:** CLOSED. Live at `eponastables/ct-management-system`.
-- **ISSUE-023 — Agent System Inheritance Protocol:** CLOSED. Ratified governance — all future builds must comply.
-- **ISSUE-024 — OPM Series Establishment:** Phase 3 in progress. RC2 redesignated as OPM1. Governance update nearly complete.
-- **ISSUE-025 — OPM1 Bespoke Management System:** CLOSED. Live at `eponastables/opm-management-system`.
-- **ISSUE-026 — RC Bespoke Management System:** **CLOSED (Day 15).** Live at `eponastables/rc-management-system`. RC1 is now a Department Head in waiting — the system includes subordinate agent registry and Department Status boot section. DEFECT-001 (LOW) deferred to APT1 next patch cycle.
-- **ISSUE-027 — RC Research Library Establishment:** OPEN. Phase 1 ready to begin — dependency on ISSUE-026 schema now cleared.
+- **ISSUE-026 — RC Bespoke Management System:** CLOSED. Live at `eponastables/rc-management-system`. RC1 is now operating with their own management system.
+- **ISSUE-027 — RC Research Library Establishment:** Phase 3 IN PROGRESS. RC1 and ARC1 collaborated to produce the Research Entry Standard v1.0. APT1 built the infrastructure. RC1 is currently converting ~72 historic research files.
+- **ISSUE-028 — Governance Consolidation:** CLOSED. Epona Stables Governance Guidelines v1.0 and ARC1 Role Charter v1.0 ratified. This is the single source of truth for all protocols.
+- **ISSUE-030 — Agent Succession and Series Lifecycle Protocol:** OPEN. A critical governance piece as we prepare for CT3 succession. Includes a new mandatory requirement for outgoing agents to write a Thread Summary for their successors.
+- **ISSUE-034 — Open Source AI Landscape Investigation:** OPEN. RC1 is investigating four areas, including offloading Stables work to free tools, subordinate coding agents, and agent persistence mechanisms.
 
-**The three-tier validation protocol** (CT2 TVV → RC independent adversarial validation → APT1 patches) is now the standard for all system builds. It has been used three times and caught things a single reviewer would have missed every time.
-
-**TAT2 is inducted and standing by.** The MNEME portability audit confirmed MNEME is fully portable. The only blocker for TAT2 field work is the Punting Form API subscription, which must be restored by the Project Lead.
+**The three-tier validation protocol** (CT2 TVV → RC independent adversarial validation → APT1 patches) continues to prove its worth. RC1's adversarial methodology is being codified into an RC-series skill (ISSUE-032) to formally recognise this capability.
 
 ---
 
 ## 3. Immediate Priorities (Day 16)
 
-1. **ISSUE-027 Phase 1** — Commission RC and ARC1 jointly to produce the Research Entry Standard and Taxonomy. The ISSUE-026 schema is confirmed; the dependency is cleared.
-2. **DEFECT-001 Patch (APT1)** — Low priority. Patch reminder already filed to APT1 mailbox. Address when convenient.
-3. **TAT2 Formal Clearance Commission** — Send the formal clearance commission to TAT2 once the Punting Form subscription status is confirmed with the Project Lead.
-4. **ISSUE-024 Phase 3** — Confirm formally closed.
+1. **CT2 Housekeeping** — The next session is dedicated to housekeeping. Update `ct_state.json` (ISSUE-033 patch pending) and clear the CT2 mailbox backlog (~100 items).
+2. **Draft ISSUE-030** — Begin drafting the Agent Succession and Series Lifecycle Protocol.
+3. **Await Agent Reports** — Monitor progress on ISSUE-027 Phase 3 (RC1), ISSUE-031 (APT1), ISSUE-032 (RC1), ISSUE-033 (APT1), ISSUE-034 (RC1), and the TAT2 Thread Summary (TAT1).
 
 ---
 
@@ -57,11 +53,11 @@ The project's infrastructure layer is now substantially complete. Five bespoke a
 
 | Agent | Series | Status | Notes |
 | :--- | :--- | :--- | :--- |
-| APT1 | APT | Active | DEFECT-001 patch pending (low priority). Next major commission: APT bespoke system (after ISSUE-027). |
-| ARC1 | ARC | Operational | Schema v2.0, 415 documents, fully portable. ISSUE-027 Phase 1 co-contribution required. |
-| RC1 | RC | Active | RC Bespoke System OPERATIONAL (Day 15). ISSUE-027 Phase 1 lead. Department Head capability live. |
+| APT1 | APT | Active | Working on ISSUE-031 (Security Governance) and ISSUE-033 (CT State Sync Patch). |
+| ARC1 | ARC | Operational | Schema v2.0, 415 documents, fully portable. ISSUE-027 Phase 1 co-contribution complete. |
+| RC1 | RC | Active | RC Bespoke System OPERATIONAL. Working on ISSUE-027 (Ph 3), ISSUE-029, ISSUE-032, ISSUE-034. |
 | OPM1 | OPM | Operational | **Formerly RC2.** System live at `eponastables/opm-management-system`. Mailbox: `07_MAILBOXES/OPM1/`. |
-| TAT1 | TAT | On-call | Thread exhausted — do not commission for new work. |
+| TAT1 | TAT | On-call | Commissioned to write Thread Summary for TAT2. |
 | TAT2 | TAT | Inducted — standing by | Awaiting Punting Form subscription restoration. MNEME PASS confirmed. |
 | Loom2/SA2 | SA | Active | Project Stables operational. |
 
@@ -96,6 +92,7 @@ The project's infrastructure layer is now substantially complete. Five bespoke a
 
 ## 7. Governance Standards (Non-Negotiable)
 
+- **Epona Stables Governance Guidelines v1.0** (`00_GOVERNANCE/Epona_Stables_Governance_Guidelines_v1.0.md`): The single source of truth for all protocols.
 - **Agent System Inheritance Protocol v1.0** (`00_GOVERNANCE/Agent_System_Inheritance_Protocol_v1.0.md`): All systems must use repo-relative paths, schema versioning, Git-native state, and environment-separated config. No exceptions.
 - **Three-tier validation protocol:** CT2 TVV → RC independent adversarial validation → APT1 patches. Standard for all system builds.
 - **Hub-and-spoke governance:** All commissions route through CT2. Agents do not commission each other without CT2 authorisation.
@@ -107,13 +104,15 @@ The project's infrastructure layer is now substantially complete. Five bespoke a
 
 | Issue | Status | Next Action |
 | :--- | :--- | :--- |
-| ISSUE-021 — CT Management System | CLOSED | Technical manual (deferred) |
-| ISSUE-023 — Agent System Inheritance | CLOSED | Technical manual (deferred) |
 | ISSUE-024 — OPM Series Establishment | Phase 3 in progress | Confirm closed |
-| ISSUE-025 — OPM1 Management System | CLOSED | Operational |
-| ISSUE-026 — RC Bespoke System | **CLOSED** | DEFECT-001 patch (APT1, low priority) |
-| ISSUE-027 — RC Research Library | **OPEN — Phase 1 ready** | Commission RC + ARC1 jointly |
+| ISSUE-027 — RC Research Library | Phase 3 IN PROGRESS | Await RC1 completion report |
+| ISSUE-029 — Agent Commissioning Protocol | Phase 1 PENDING | Await RC1 draft |
+| ISSUE-030 — Agent Succession Protocol | Phase 1 PENDING | **CT2 self-commission (Draft next session)** |
+| ISSUE-031 — Security Governance Protocol | Phase 1 PENDING | Await APT1 draft |
+| ISSUE-032 — RC Adversarial TVV Skill | Phase 1 PENDING | Await RC1 draft |
+| ISSUE-033 — CT System State Sync Patch | Phase 1 PENDING | Await APT1 patch delivery |
+| ISSUE-034 — Open Source AI Investigation | Phase 1 IN PROGRESS | Await RC1 Strategic Assessment Report |
 
 ---
 
-*CT2 — The Coach | Epona Stables | Last updated 6 June 2026 (Day 15)*
+*CT2 — The Coach | Epona Stables | Last updated 14 June 2026 (Day 15)*
